@@ -2,26 +2,58 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Open Graph (preview untuk FB/WA/Telegram) -->
+  <!-- Open Graph untuk preview FB/WA -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Kunjungi CVM Sekarang!" />
   <meta property="og:description" content="Klik untuk langsung menuju situs CVM resmi." />
   <meta property="og:image" content="https://annas12.github.io/china/china.png" />
   <meta property="og:url" content="https://annas12.github.io/china/" />
 
-  <!-- Twitter Card (optional, biar preview bagus di semua platform) -->
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Kunjungi CVM Sekarang!" />
   <meta name="twitter:description" content="Klik untuk langsung menuju situs CVM resmi." />
   <meta name="twitter:image" content="https://annas12.github.io/china/china.png" />
 
-  <!-- Redirect instan tanpa tampilan -->
-  <script>
-    window.location.replace("https://cvm.com");
-  </script>
+  <title>Mengarahkan ke CVM...</title>
 
-  <title>Mengarahkan...</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    .count {
+      font-size: 4em;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
 </head>
-<body></body>
+<body>
+  <h1>Menuju ke situs CVM...</h1>
+  <p>Anda akan dialihkan dalam:</p>
+  <div class="count" id="count">5</div>
+
+  <script>
+    let count = 5; // durasi mundur dalam detik
+    const counter = document.getElementById("count");
+
+    const interval = setInterval(() => {
+      count--;
+      counter.textContent = count;
+      if (count <= 0) {
+        clearInterval(interval);
+        window.location.replace("https://cvm.com");
+      }
+    }, 1000);
+  </script>
+</body>
 </html>
