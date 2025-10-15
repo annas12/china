@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Nama Situs Kamu" />
+  <meta property="og:title" content="Judul Preview yang Menarik" />
+  <meta property="og:description" content="Deskripsi singkat konten kamu di sini." />
+  <meta property="og:image" content="https://e-drama.my.id/assets/preview.jpg" />
+  <meta property="og:url" content="https://e-drama.my.id/share.html" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Judul Preview yang Menarik" />
+  <meta name="twitter:description" content="Deskripsi singkat konten kamu di sini." />
+  <meta name="twitter:image" content="https://e-drama.my.id/assets/preview.jpg" />
+
+  <!-- Redirect tanpa tampilan -->
+  <script>
+    // Redirect sangat cepat ke target
+    window.location.replace("https://cvm.com");
+  </script>
+
+  <title>Mengarahkan...</title>
+</head>
+<body></body>
+</html>
