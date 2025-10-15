@@ -3,23 +3,21 @@
 <head>
   <meta charset="UTF-8">
 
-  <!-- Open Graph -->
+  <!-- Open Graph (preview untuk FB/WA/Telegram) -->
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Nama Situs Kamu" />
-  <meta property="og:title" content="Judul Preview yang Menarik" />
-  <meta property="og:description" content="Deskripsi singkat konten kamu di sini." />
-  <meta property="og:image" content="https://e-drama.my.id/assets/preview.jpg" />
-  <meta property="og:url" content="https://e-drama.my.id/share.html" />
+  <meta property="og:title" content="Kunjungi CVM Sekarang!" />
+  <meta property="og:description" content="Klik untuk langsung menuju situs CVM resmi." />
+  <meta property="og:image" content="https://annas12.github.io/china/china.png" />
+  <meta property="og:url" content="https://annas12.github.io/china/" />
 
-  <!-- Twitter Card -->
+  <!-- Twitter Card (optional, biar preview bagus di semua platform) -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Judul Preview yang Menarik" />
-  <meta name="twitter:description" content="Deskripsi singkat konten kamu di sini." />
-  <meta name="twitter:image" content="https://e-drama.my.id/assets/preview.jpg" />
+  <meta name="twitter:title" content="Kunjungi CVM Sekarang!" />
+  <meta name="twitter:description" content="Klik untuk langsung menuju situs CVM resmi." />
+  <meta name="twitter:image" content="https://annas12.github.io/china/china.png" />
 
-  <!-- Redirect tanpa tampilan -->
+  <!-- Redirect instan tanpa tampilan -->
   <script>
-    // Redirect sangat cepat ke target
     window.location.replace("https://cvm.com");
   </script>
 
